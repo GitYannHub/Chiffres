@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "Couleurs",
-    "slug": "Couleurs",
-    "version": "1.0.6",
+    "name": "Chiffres",
+    "slug": "Chiffres",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/iTunesArtwork@2x.png",
+    "icon": "./assets/icone.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -16,9 +16,9 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.japprends.couleurs", 
+      "bundleIdentifier": "com.japprends.chiffres", 
       "adaptiveIcon": {
-        "foregroundImage": "./assets/iTunesArtwork@2x.png",
+        "foregroundImage": "./assets/icone.png",
         "backgroundColor": "#ffffff"
       }
     },
