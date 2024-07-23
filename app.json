@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Couleurs",
+    "slug": "Couleurs",
+    "version": "1.0.6",
+    "orientation": "portrait",
+    "icon": "./assets/iTunesArtwork@2x.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.japprends.couleurs", 
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/iTunesArtwork@2x.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.Couleurs"
+    },
+    "web": {
+      "favicon": "./assets/iTunesArtwork@2x.png"
+    },
+    "scheme": "your-app-scheme",
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
