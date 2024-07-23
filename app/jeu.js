@@ -277,7 +277,7 @@ setDisabled3(true);
 
 playSoundBonneReponse();
 setNbEssais(nbEssais+1);
-var nbMaxEssais=3; //A Modifier pour le nombre d'essais total
+var nbMaxEssais=10; //A Modifier pour le nombre d'essais total
 
 if(nbEssais<nbMaxEssais){
 setTimeout(ChangeAndplayNextSound, 1300);
@@ -329,7 +329,7 @@ function handlePress2(){};
     </View>
 
     <View  style={{position: 'absolute', right: '7%'}}>
-    <Text style={styles.essais}>Essais: {nbEssais}/3</Text>
+    <Text style={styles.essais}>Essais: {nbEssais}/10</Text>
     </View>
 
 </View>

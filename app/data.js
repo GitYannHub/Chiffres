@@ -48,7 +48,7 @@ const Constants= {
           url:require("../assets/projet/8.png"),
           nom:"Huit",
           emotion:"Les huit notes d'une gamme musicale",
-          emotion2:"Le chiffre huit est considéré comme très chanceux en Chine, car il se prononce comme le mot 'prospérité'"
+          emotion2:"Le chiffre huit est considéré comme très chanceux en Chine, car il se prononce comme le mot 'prospérité'."
         },
       9: {
           url:require("../assets/projet/9.png"),

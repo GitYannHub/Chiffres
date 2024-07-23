@@ -8,10 +8,10 @@ export default function Page() {
   return (
 <View style={[StyleSheet.absoluteFill, styles.mainView]}>
 <ImageBackground style={ styles.imgBackground } 
-                 source={require('../assets/fonds/fond2.jpg')}>
+                 source={require('../assets/fonds/fond.jpg')}>
 
      <View style={styles.spacerHaut}></View>
-     <Text style={styles.titre} adjustsFontSizeToFit={true} numberOfLines={1}>J'apprends les couleurs</Text>
+     <Text style={styles.titre} adjustsFontSizeToFit={true} numberOfLines={1}>J'apprends les chiffres</Text>
      <View style={styles.spacer2}></View>
   
 
@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
    spacer2:{height:'7%', width:'100%',},
    spacer3:{height:'5%', width:'100%',},
 
-   titre:{fontSize:50, textAlign:'center', fontWeight:"700",  color: '#f13b8e', marginHorizontal:20},
+   titre:{fontSize:50, textAlign:'center', fontWeight:"700",  color: '#76695d', marginHorizontal:20},
 
    menu: {fontSize:30, color: 'white', fontWeight:'600'},
    wrapperstyle: {width:'70%', height: '100%', backgroundColor:'#bbada0',justifyContent:"center", alignItems: "center", borderRadius:10,  },

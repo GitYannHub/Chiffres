@@ -81,7 +81,7 @@ if(i>8){
   return (
 <View style={[StyleSheet.absoluteFill, styles.mainView]}>
 <ImageBackground style={ styles.imgBackground } 
-                 source={require('../assets/fonds/fond.png')}>
+                 source={require('../assets/fonds/fond2.jpg')}>
 
  <View style={styles.spacerHaut}></View>  
 

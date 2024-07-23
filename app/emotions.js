@@ -174,17 +174,17 @@ function handlePressSound() {
 <View style={styles.spacer3}></View>
 
 <TouchableOpacity onPress={ChangeAndplayNextSound} style={styles.containerImage}>
-<Text style={styles.e1} >La couleur {Constants.data[dataSelected]["nom"]} est associée aux émotions principales: </Text>
+<Text style={styles.e1} >Le chiffre {Constants.data[dataSelected]["nom"]} est présent dans la vie quotidienne: </Text>
 <Text></Text>
 <Text style={styles.e2}>{Constants.data[dataSelected]["emotion"]}</Text>
 <Text></Text>
 <Text></Text>
+
 <Text></Text>
-<Text></Text>
-<Text style={styles.e3}>Le {Constants.data[dataSelected]["nom"]} est aussi en lien avec : </Text>
+<Text style={styles.e3}>Anecdote sur le {Constants.data[dataSelected]["nom"]}: </Text>
 <Text></Text>
 <Text style={styles.e4}>{Constants.data[dataSelected]["emotion2"]}</Text>
-<Text></Text>
+
 <Text></Text>
 
 <Text style={styles.suivant}>>></Text>
@@ -222,23 +222,23 @@ const styles = StyleSheet.create({
 // Fin du menu
 
 
-spacer2:{height:'5%', width:'100%', },
+spacer2:{height:'2%', width:'100%', },
 
 ContenaireMenuNomCouleur:{height: '10%', width:'100%',alignItems: 'center', justifyContent: 'center'},
 MenuNomCouleur:{height: '100%',flexDirection:'row', alignItems: 'center', justifyContent: 'center', resizeMode:"contain"},
 NomCouleur:{fontSize:45, color:'#776e65', fontWeight:'500'},
 musique:{marginLeft:'2%', width:'20%', height:'80%', resizeMode:"contain", },
 
-spacer3:{height:'3%', width:'100%'},
+spacer3:{height:'1%', width:'100%'},
 
 containerImage:{width:'100%', height:'15%', alignItems: 'center'},
 imageStyle:{ width:'100%', height:'100%',resizeMode: "contain"},
 
 //Emotions
 e1:{fontSize:20, color:'#776e65', fontWeight:'500', width:'90%'},
-e2:{fontSize:28, color:'#776e65', fontWeight:'600', width:'90%',textAlign: 'center'},
+e2:{fontSize:20, color:'#776e65', fontWeight:'600', width:'90%',textAlign: 'center'},
 e3:{fontSize:20, color:'#776e65', fontWeight:'500', width:'90%'},
-e4:{fontSize:28, color:'#776e65', fontWeight:'600', width:'90%',textAlign: 'center'},
+e4:{fontSize:20, color:'#776e65', fontWeight:'600', width:'90%',textAlign: 'center'},
 suivant:{fontSize:22, color:'#776e65', fontWeight:'400', width:'90%',textAlign: 'center'},   
     
    
