@@ -369,7 +369,7 @@ function reactiveCase(a,b){
 
 <View style={styles.spacer2}></View>
 <Text style={styles.titre}>Memory</Text> 
-<Text style={styles.soustitre}>Retourne les 2 mêmes couleurs</Text> 
+<Text style={styles.soustitre}>Retourne les 2 mêmes chiffres</Text> 
 <View style={styles.spacer2}></View>
 
 <Text style={styles.couleurs}>{couleur1} {separateur} {couleur2} </Text> 

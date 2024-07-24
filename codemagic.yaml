@@ -10,15 +10,15 @@ workflows:
         #distribution_type: app_store
         #bundle_identifier: com.j.demoyann2 #A Modifier
         provisioning_profiles: 
-        - Couleurs
+        - Chiffres #A modifier 
         certificates: 
         - Distribution_Certificate
 
       vars:
-        BUNDLE_ID: "com.japprends.couleurs" #A modifier 
-        XCODE_WORKSPACE: "Couleurs.xcworkspace" # A Modifier
-        XCODE_SCHEME: "Couleurs" # A Modifier
-        APP_STORE_APPLE_ID: 2L6W9Q93F8 # A Modifier (ou pas, à confirmer)
+        BUNDLE_ID: "com.japprends.chiffres" #A modifier 
+        XCODE_WORKSPACE: "Chiffres.xcworkspace" # A Modifier
+        XCODE_SCHEME: "Chiffres" # A Modifier
+        APP_STORE_APPLE_ID: 2L6W9Q93F8 
     scripts:
       - name: Install npm dependencies
         script: | 
