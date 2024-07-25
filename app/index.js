@@ -48,7 +48,7 @@ export default function Page() {
     <View style={styles.viewContainerMenu}>
      <Link  href="./emotions" asChild> 
      <Pressable style={styles.wrapperstyle}>
-          <Text style={styles.menu}>EMOTIONS</Text>
+          <Text style={styles.menu}>ANECDOTES</Text>
       </Pressable>
       </Link>
     </View>

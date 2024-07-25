@@ -28,7 +28,7 @@ const Constants= {
         },
       5: {
           url:require("../assets/projet/5.png"),
-          nom:"Cing",
+          nom:"Cinq",
           emotion:"Les cinq sens humains (vue, ouïe, odorat, goût, toucher).",
           emotion2:"Le pentagramme, une étoile à cinq branches, est utilisé dans de nombreuses cultures pour représenter la protection et l'équilibre."
         },
